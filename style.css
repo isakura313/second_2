@@ -1,0 +1,47 @@
+body{
+    background-color:green;
+}
+.wrapper{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 15px;
+}
+h1 + h5{
+    color: red;
+}
+.wrapper img{
+    width: 100%;
+}
+.wrapper h5{
+    text-align: center;
+    font-size: 30px;
+}
+.wrapper p{
+    font-family: Georgia;
+    font-size: 20px;
+    line-height: 2;
+}
+.wrapper button{
+    background-color: rgb(8, 8, 139);
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    outline: none;
+}
+.wrapper button:hover{
+    box-shadow: 3px 2px 5px grey;
+    cursor: pointer;
+}
+.my_anchor{
+    color: red;
+}
+.my_anchor a{
+    color: rgb(37, 95, 37);
+}
+
+.my_anchor a:visited{
+    color: yellow;
+}
